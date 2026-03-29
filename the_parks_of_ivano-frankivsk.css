@@ -1,0 +1,115 @@
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2e8b57;
+    padding: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.menu a:hover {
+    color: #ccffcc;
+    text-shadow: 0 0 5px white;
+}
+
+header {
+    margin-top: 70px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+background:
+    linear-gradient(rgba(0, 100, 0, 0.6), rgba(34, 139, 34, 0.6)),
+    url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Shevchenko_Park_IF.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+header h1 {
+    font-size: 42px;
+    text-shadow: 3px 3px 10px black;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 12px;
+    border-radius: 12px;
+    width: 60%;
+}
+
+h2 {
+    color: #006400;
+    text-shadow: 1px 1px 3px #90ee90;
+    letter-spacing: 1px;
+}
+
+.section {
+    padding: 40px;
+}
+
+.section p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #2f4f4f;
+}
+
+.facts {
+    background: linear-gradient(#e6ffe6, #ccffcc);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border: 2px solid #2e8b57;
+    box-shadow: 0 0 10px #90ee90;
+}
+
+img {
+    width: 320px;
+    border-radius: 15px;
+    margin-top: 15px;
+    border: 4px solid #2e8b57;
+    box-shadow: 0 0 10px #90ee90;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
